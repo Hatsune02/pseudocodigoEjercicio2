@@ -1,0 +1,22 @@
+Algoritmo Ejercicio2
+	Escribir 'Ingrese un número'
+	Leer var
+	cantidadNumeros <- 0
+	Si (var>0) Entonces
+		Si (var=1) Entonces
+			Escribir 'No hay ningun valor comprendido'
+		SiNo
+			cantidadNumeros <- var
+			Para i<-1 Hasta var Hacer
+				Escribir cantidadNumeros
+				cantidadNumeros <- cantidadNumeros-1
+			FinPara
+		FinSi
+	SiNo
+		cantidadNumeros <- var
+		Para i<-1 Hasta var Con Paso -1 Hacer
+			Escribir cantidadNumeros
+			cantidadNumeros <- cantidadNumeros+1
+		FinPara
+	FinSi
+FinAlgoritmo
